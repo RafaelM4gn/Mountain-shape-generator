@@ -1,34 +1,42 @@
-O que foi feito 
+# Mountain shape generator in C
 
-  Basico -
+## Implementações basicas
 
-    -O codigo feito gera um arquivo PMM de uma montanha baseado nos parametros "-d" e "-o"
+O codigo gera um arquivo PMM de uma montanha com formato aleatorio com base nos parametros "-d" e "-o".
 
-  Extras -
+## Implementações extras
 
-    -Parametro "-s" que define o tamanho da imagem por exemplo: "-s 257". valor deve seguir a formula 2^n + 1.
+- Parametro "-s" que define o tamanho da imagem 
+> "-s 257". valor deve seguir a formula 2^n + 1.
 
-    -Geracao de contorno na montanha
+- Geração de contorno na montanha.
 
-    -ceu estrelado e com gradiente
+- Céu estrelado e com gradiente.
 
-    -mar ao fundo (raro de aparecer)
+- Oceano ao fundo (metade da tela)
 
-    -Lava subterranea com contorno e gradiente (metade do deslocamento)
+- Lava subterrânea com contorno e gradiente (metade do deslocamento)
 
-  O que seria feito diferentemente - 
+## Possiveis melhorias
 
-    Corrigir o parametro "-s" que so funciona com numeros conveninentes caso contrario gera bug
-  Como compilar o projeto
+Corrigir o parametro "-s" que funciona apenas com números conveninentes caso contrário gera bug.
 
-    - primeiro: gcc functions.c main.c -o program -g -w
+## Como compilar o projeto?
 
-    - segundo: ./program 
+Para executar o projeto compile os arquivos dentro da pasta onde se encontra esse README.md usando:
+              
+    gcc functions.c main.c -o program -g -w
 
-      parametros(opcionais)
-      
-      > -d = deslocamento aleatorio maximo
-      > -o = nome do arquivo com a extensao
-      > -s = altura e comprimento da imagem para gerar uma imagem quadrada
+Em seguida execute o programa com:
 
-Feito individualmente e no replit.com
+    ./program 
+
+parametros(opcionais)
+
+> -d = deslocamento aleatorio maximo
+
+> -o = nome do arquivo com a extensao
+
+> -s = altura e comprimento da imagem para gerar uma imagem quadrada
+
+*Feito individualmente no replit.com*
