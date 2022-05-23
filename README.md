@@ -1,5 +1,7 @@
 # Mountain shape generator in C
 
+![alt text](https://github.com/RafaelM4gn/Mountain-shape-generator/blob/master/imagem.png)
+
 ## Implementações basicas
 
 O codigo gera um arquivo PMM de uma montanha com formato aleatorio com base nos parametros "-d" e "-o".
